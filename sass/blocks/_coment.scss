@@ -1,0 +1,196 @@
+.coment {
+ padding: 140px 0;
+ background-color: #004047;
+ background-image: url(../images/photo_2022-05-13_00-53-32.png), url(../images/photo_2022-05-13_00-53-15.png); 
+ background-repeat: no-repeat;
+ background-position: calc(50% - 700px) top, calc(50% + 700px) bottom ;
+ background-size:147px 100px, 200px;
+}
+
+
+.coment__hiading {
+    @include title-text-global;
+    width: 100%;
+    max-width: 932px;
+    height: 100%;
+    max-height: 85px;
+    margin-bottom: 92px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.coment__color {
+  color: #79C8C7;
+}
+
+.coment__list {
+    @include list-global;
+    @include flex-starter;
+    justify-content: space-between;
+}
+
+.coment__item {
+    @include list-global; 
+    display: inline-block;
+    background-image: url(../images/bleckquote.png);
+    background-repeat: no-repeat;
+    background-size: 67px 56px ;
+    background-position : top;
+
+}
+.coment__quote {
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.coment__name {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    margin-bottom: 2px;
+}
+
+.coment__job {
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.coment__img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius:50% ;
+    margin: 0 auto; 
+
+}
+
+@media only screen and (max-width:768px ){
+    .coment {
+        padding: 100px 0;
+        background-position: left top, right bottom ;
+    }
+
+    .coment__hiading {
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 84px;
+    }
+
+    .coment__color {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .coment__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .coment__item {
+        margin-bottom: 84px;
+        background-position: center top;
+    }
+
+
+
+    .coment__quote {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .coment__name {
+        margin-bottom: 2px;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .coment__job {
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .coment__img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width:576px ){
+    .coment {
+        padding: 140px 0 164px;
+        background-position: left top, right bottom ;
+    }
+
+    .coment__hiading {
+        max-width: 327px
+        mb16;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 84px;
+    }
+
+    .coment__color {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .coment__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .coment__item {
+        margin-bottom: 84px;
+        background-position: center top;
+    }
+
+
+
+    .coment__quote {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .coment__name {
+        margin-bottom: 2px;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .coment__job {
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+       margin-bottom: 16px;    
+    }
+
+    .coment__img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

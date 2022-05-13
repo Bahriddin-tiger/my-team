@@ -14,8 +14,10 @@
 }
 
 .site-header__logo {
-    width: 160px;
-    height: 40px;
+    width: 100%;
+    max-width: 160px;
+    height: 100%;
+    max-height: 40px;
 }
 
 .nav {
@@ -66,17 +68,26 @@
     color: #FFFFFF;
 }
 
-@media only screen and (max-width:615px){
-    .site-header__logo-link {
-        margin-right: 40px;
+@media only screen and (max-width:768px){
+    .site-header{
+        padding: 64px 0;
     }
-    .nav__item  {
-        margin-right: 20px;
-    
+
+    .site-header__logo{
+        max-width: 128px;
+        max-height: 32px;
+    }
+    .site-header__logo-link{
+        margin-right: 48px;
     }
 }
 
+
+
 @media only screen and (max-width:576px){
+    .site-header{
+        padding: 48px 0;
+    }
     .site-header__button{
         display: block;
     }
