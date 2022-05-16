@@ -70,7 +70,7 @@
 
 
 
-.rigt__list {
+.right__list {
     
     @include flex-starter;
     @include list-global;
@@ -126,7 +126,7 @@
         justify-content: space-between;
         max-width: 723px;
     }
-    .rigt__list{
+    .right__list{
         margin: 0;
         padding: 0;
         
